@@ -91,6 +91,15 @@ namespace Lesson02_ControlFlujo
             WriteLine($" numero  -= 20 => {numero -= 20}");
 
 
+            // USANDO CICLO WHILE
+            WriteLine("\n USANDO CICLO WHILE");
+
+            int index = 1; //Hacer que cuente de 1 al 10 automaticamente
+            while (index<=10)
+            {
+                WriteLine($"index vale: {index}");
+                index++;
+            }
 
             // Permiti que la ventana de consola no se cierre.
             WriteLine("\nEnter close");
